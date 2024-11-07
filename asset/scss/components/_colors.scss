@@ -1,0 +1,24 @@
+// Padrão
+$primary-white: #fff;
+$primary-light: #f4f4f4;
+$primary-ice: #F7F6FB;
+$primary-dark: #333;
+$primary-grey: #5e5e5e;
+$primary-black: #000;
+$primary-purple: #5b03e4; // cor primaria devpoa
+$primary-rose: #c03afe; // cor secondária devpoa
+$primary-lilas: #f0e4ff;
+$overlay-color: rgba(0, 0, 0, 0.5);
+
+// Shadows
+$primary-shadow: 0 1px 5px 0 rgba(91, 3, 228, 0.38);
+$secondary-shadow: 0 8px 32px 0 rgba(91, 3, 228, 0.38);
+
+// Gradiente
+$primary-gradiente: linear-gradient(-135deg, rgba(91, 3, 228) 0%, rgb(192, 58, 254) 100%);
+$secondary-gradiente: linear-gradient(120deg, rgba(91, 3, 228) 0%, rgba(192, 58, 254) 100%);
+$overlay-hero: linear-gradient(-120deg, rgba(0, 0, 0, .5) 50%, rgba(91, 3, 228) 100%);
+$overlay-hero-card: linear-gradient(120deg, rgba(91, 3, 228) 0%, rgba(0, 0, 0, .5) 50%, rgba(91, 3, 228) 100%);
+$overlay-hero-sobre: linear-gradient(120deg, rgba(0, 0, 0, .5) 0%, rgba(91, 3, 228, .5) 50%, rgba(0, 0, 0, .5) 100%);
+$overlay-form: linear-gradient(120deg, rgba(0, 0, 0, .5) 50%, rgba(91, 3, 228) 100%);
+$overlay-hero-mobile: linear-gradient(-120deg, rgba(0, 0, 0, .5) 30%, rgba(91, 3, 228) 100%);
