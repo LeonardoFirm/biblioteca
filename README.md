@@ -1,2 +1,0 @@
-# devpoa
-Devpoa Styles
