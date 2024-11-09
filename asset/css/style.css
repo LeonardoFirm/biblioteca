@@ -1753,7 +1753,7 @@
   }
   main.container__main .content__cases .content__titulo h2.titulo__case {
     color: #fff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) !important;
   }
   main.container__main .content__cases .content__titulo p {
     padding: 0 0 13rem 0;
