@@ -2283,8 +2283,7 @@ a {
 h2.titulo__projetos,
 .titulo__clientes,
 .titulo__info,
-.titulo__sobre,
-.titulo__cases {
+.titulo__sobre {
   color: #5b03e4;
   font-weight: 600;
   text-transform: capitalize;
@@ -2292,8 +2291,7 @@ h2.titulo__projetos,
 h2.titulo__projetos small,
 .titulo__clientes small,
 .titulo__info small,
-.titulo__sobre small,
-.titulo__cases small {
+.titulo__sobre small {
   color: #c03afe;
 }
 
