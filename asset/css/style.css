@@ -1747,14 +1747,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  main.container__main .content__cases .content__titulo h1.titulo__cases {
+  main.container__main .content__cases .content__titulo h1 {
     font-size: 3.5em !important;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  main.container__main .content__cases .content__titulo h2.titulo__cases {
+  main.container__main .content__cases .content__titulo h2.titulo__case {
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
   main.container__main .content__cases .content__titulo p {
     padding: 0 0 13rem 0;
@@ -1927,7 +1926,6 @@
 }
 #wpp-fix .wpp-link:hover {
   transform: scale(1.05);
-  background: #1da851;
 }
 #wpp-fix .wpp-link.hide-this {
   opacity: 0;
