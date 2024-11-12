@@ -1454,7 +1454,7 @@
   }
   main.container__main .content__info {
     margin-top: 250px;
-    background-image: url("https://devpoa.com.br/asset/infos-bg.webp");
+    background-image: url("../image/infos-bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
