@@ -557,6 +557,58 @@
             }
         }
 
+        // marcas
+        .content__marcas {
+            margin-top: 200px;
+            width: 1200px;
+            max-width: 100%;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+
+            .content__titulo {
+                position: relative;
+                display: inline;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                .degrade__border {
+                    display: block;
+                    width: 100px;
+                    height: 3px;
+                    background-image: $secondary-gradiente;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .content__imagem {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: .9rem;
+                justify-content: center;
+
+                .img__marcas {
+                    width: 200px;
+                    max-width: 100%;
+                    gap: .9rem;
+                    filter: grayscale(100%);
+                    transition: filter .5s;
+
+                    &:hover {
+                        filter: grayscale(0);
+                    }
+
+                }
+            }
+        }
+
         // clientes
         .content__clientes {
             position: relative;
