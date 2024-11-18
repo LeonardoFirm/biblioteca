@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1240px) and (max-width: 1599px) {
     .navbar {
         justify-content: space-between;
 
@@ -11,7 +11,7 @@
             border-radius: .5rem;
             border: none;
             padding: .3rem 1rem .3rem .2rem;
-            margin-left: 0; // 100px
+            margin-left: 100px;
             transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 
             &:hover {
@@ -73,12 +73,12 @@
     }
 
     .navbar__brand {
-        // margin-right: 400px;
+        margin-right: 400px;
 
         .avatar {
             position: absolute;
             margin-top: -15px;
-            margin-left: 0; // -100px
+            margin-left: -100px;
             width: 100px;
         }
     }
