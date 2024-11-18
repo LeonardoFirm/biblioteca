@@ -208,7 +208,7 @@
     // card sub-hero
     .card__sub__hero {
         position: absolute;
-        top: 74%;
+        top: 78%;
         left: 50%;
         transform: translate(-50%);
         display: flex;
@@ -434,7 +434,6 @@
                 padding: .9rem;
                 border-radius: .9rem;
                 border: none;
-                width: auto;
                 height: 100%;
                 max-height: 100%;
                 transition: .6s;
